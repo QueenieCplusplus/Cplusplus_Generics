@@ -24,6 +24,8 @@
 // != 比較以檢查是否抵達序列尾端
 // * 存取當前數值
 // ++ 往下一個元素移動
+
+// 模板可支持泛型
 template<typename Iter, typename Val>
 Val sum(Iter first, Iter last)
 {
